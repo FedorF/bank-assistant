@@ -1,0 +1,5 @@
+gensim
+pandas
+pydantic
+sklearn
+telegram
