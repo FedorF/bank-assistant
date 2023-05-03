@@ -10,3 +10,4 @@ docker_run:
 run_app:
     docker_build
     docker_run
+
