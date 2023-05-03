@@ -1,5 +1,8 @@
-gensim
-pandas
-pydantic
+gensim~=3.8.3
+pandas~=1.3.5
+pydantic~=1.9.0
 sklearn
 telegram
+
+numpy~=1.19.2
+scikit-learn~=0.23.1

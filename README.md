@@ -1,10 +1,10 @@
-# Telegram chat-bot 
+# Bank assistant bot
 
- Question-Answering system deploying as telegram-bot. Bot accepts bank related query in Russian language and response with the most relevant 
-Q/A pairs with its cluster labels.
+ Question-Answering system deployed as telegram chat-bot. Bot accepts bank related query in Russian language and responses with the most relevant 
+Q&A pairs.
 
-Index is based on real QA dataset one of the greatest bank in Russia.
+Index is based on real Q&A dataset of one of the biggest banks in Russia.
 
 
 
-Examples on [telegram bots](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/README.md).
+Examples on [telegram chat-bots](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/README.md).
