@@ -1,5 +1,5 @@
 prepare_data:
-	unzip binary/vk.csv.zip -d binary/vk.csv
+	unzip binary/vk.csv.zip -d binary/
     
 docker_build:
 	docker build -t bank_assistant .
@@ -8,5 +8,6 @@ docker_run:
 	docker run --name bank_assistant bank_assistant
 
 run_app:
-	docker_build
-	docker_run
+	unzip binary/vk.csv.zip -d binary/
+	docker build -t bank_assistant .
+	docker run --name bank_assistant bank_assistant
