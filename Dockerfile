@@ -16,4 +16,4 @@ ENV MIN_DF=5
 ENV N_CLOSEST=3
 ENV N_CLUSTERS=60
 
-CMD python3 run_server.py --mode $MODE
+CMD python3 run_app.py --mode $MODE
